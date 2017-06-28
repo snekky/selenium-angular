@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [ua.pp.krotov.FirstTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="ua.pp.krotov.FirstTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="gotoSeleniumLocalhostFailure"/>
+        </methods>
+      </class> <!-- ua.pp.krotov.FirstTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [ua.pp.krotov.FirstTest] -->
